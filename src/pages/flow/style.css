@@ -1,0 +1,30 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#actualAndEditSize {
+    display: flex;
+    flex-direction: row;
+
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#divSubmitSize {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#submitSize {
+    color: #fff;
+    background-color: #1e4b86;
+}
